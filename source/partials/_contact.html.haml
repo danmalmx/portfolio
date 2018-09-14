@@ -1,0 +1,6 @@
+.contact
+    - data.contact.each do |project|
+        #links
+            %div{id: "#{project[:contact_id]}"}
+                %a{href: "#{project[:contact_link]}", target: "_blank"}
+                    %img{src: "#{project[:contact_image]}"} 

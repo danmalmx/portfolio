@@ -1,0 +1,171 @@
+$bg_color: black
+$h2_color: #505050
+$h3_color: black
+$h4_color: #C70039
+$p_color: #FFC300
+$a_color: #dddddd 
+$hover_color: #66CDAA
+$card_color: #A9A9A9
+$align_center: center
+$min_sz_font: 1em
+$card_size_tx: 0.5em
+$med_sz_font: 2em
+$lg_sz_font: 3em
+$xlg_sz_font: 5rem
+
+body
+  font-family: Helvetica, sans-serif
+  text-align: justify
+  align-items: center
+  align-content: center
+  margin: 0
+  padding: 0
+
+.index
+  background: $bg_color
+  padding: 5vh
+
+a
+  text-align: justify
+  color: $h2_color
+  &:focus, 
+  &:hover 
+    color: $h4_color
+  padding: 0 0 0 50
+
+#links
+  font-size: 3em
+  padding: 0 50 0 50
+  line-height: 2em
+
+  color: $h3_color
+  &:focus, &:hover 
+    color: $hover_color
+
+h1 
+  color: $h2_color
+  font-size: $xlg_sz_font
+  padding: 0 50 0 50
+  
+h2
+
+  color: $h4_color
+  font-size: $med_sz_font
+  padding: 0 20 0 20
+
+h3
+  color: $h3_color
+  font-size: 3em
+  padding: 0 50 0 50
+
+h4 
+  color: $h4_color
+  font-size: 3em
+  padding: 0 50 0 50
+
+h5 
+  color: $h4_color
+  font-size: 2.3em
+  padding: 0 50 0 50
+  text-align: justify
+
+p 
+  color: $h2_color
+  padding: 0 20 0 20
+  font-size: $min_sz_font
+
+.wrapper
+  display: grid
+  grid-template-columns: 150px auto  
+
+  .main 
+    display: grid
+    grid-colum: 2 / -1  
+
+  .works
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 
+    grid-gap: 10px
+    padding: 3vh
+
+    #wk_1
+      background-color: $card_color
+      &:focus, &:hover 
+        background-color: grey
+      border-radius: 20px
+    #wk_2
+      background-color: $card_color
+      &:focus, &:hover 
+        background-color: grey
+      border-radius: 20px
+    #wk_3
+      background-color: $card_color
+      &:focus, &:hover 
+        background-color: grey
+      border-radius: 20px
+    #wk_4
+      background-color: $card_color
+      &:focus, &:hover 
+        background-color: grey
+      border-radius: 20px
+    #wk_5
+      background-color: $card_color
+      &:focus, &:hover 
+        background-color: grey
+      border-radius: 20px
+    #wk_6
+      background-color: $card_color
+      &:focus, &:hover 
+        background-color: grey
+      border-radius: 20px
+
+  .contact
+    display: grid
+    grid-template-columns: repeat(6, 1fr)
+    // padding: 3vh
+    min-height: 62.5vh
+
+    #cont_1
+      img 
+        display: inline-grid
+        grid-column-start: 3
+        grid-column-end: 4
+        width: 75%
+        &:focus, &:hover 
+          width: 70% 
+
+    #cont_2
+      img 
+        display: inline-grid
+          grid-column-start: 4
+          grid-column-end: 5
+        width: 75%
+        &:focus, &:hover 
+          width: 70% 
+
+    #cont_3
+      img 
+        display: inline-grid
+        grid-column-start: 4
+        grid-column-end: 5
+        width: 75%
+        &:focus, &:hover 
+          width: 70% 
+
+    #cont_4
+      img 
+        display: inline-grid
+        grid-column-start: 5
+        grid-column-end: 6
+        width: 75%
+        &:focus, &:hover 
+          width: 70% 
+
+  .menue
+    grid-column: 1 / 2
+    color: $p_color
+    border-style: solid
+    border-bottom-color: black
+    border-top-color: black
+    border-left-color: black
+    border-right-color: red

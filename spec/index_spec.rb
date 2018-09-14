@@ -1,11 +1,11 @@
 describe 'Index Page', type: :feature do
     
-    it 'displays project list' do
-      visit './source/index.html.haml'
-      expect(page).to have_css '.projects'
-      within '.projects' do
-        expect(page).to have_content 'My First Website'
-        expect(page).to have_content 'FizzBuzz'
+    it 'displays intro text list' do
+      visit '/'
+      expect(page).to have_css '.intro'
+      within '.intro' do
+        expect(page).to have_content 'HI. MY NAME IS DANIEL'
+        expect(page).to have_content ' '
       end
     end
   end

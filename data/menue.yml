@@ -1,0 +1,24 @@
+- menue_id: mu_1
+  name: Home
+  image: 
+  link: source/home.html
+
+- menue_id: mu_2
+  name: Work
+  image: 
+  link: source/home.html
+
+- menue_id: mu_3
+  name: Skills
+  image: 
+  link: source/home.html
+
+- menue_id: mu_4
+  name: Contact
+  image: 
+  link: source/home.html
+
+- menue_id: mu_5
+  name: About
+  image: 
+  link: source/home.html

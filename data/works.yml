@@ -1,0 +1,29 @@
+- work_id: wk_1
+  name: My First Website
+  description: Simple HTML5 site I've build during the PrepCourse
+  link: https://danmalmx.github.io
+
+- work_id: wk_2
+  name: FizzBuzz
+  description: My first test driven ruby project
+  link: https://github.com/danmalmx/fizz_buzz
+
+- work_id: wk_3
+  name: Address Book 
+  description: A JS app that let's you make a list of your friends and contacts
+  link: https://danmalmx.github.io/address_book
+
+- work_id: wk_4
+  name: FizzBuzz revisited
+  description: Browser version (JS, HTMl and CSS) of the game
+  link: https://danmalmx.github.io/fizz_buzz_js 
+
+- work_id: wk_5
+  name: My Portfolio
+  description: Samples of what I have done
+  link:
+
+- work_id: wk_6
+  name: My Portfolio
+  description: Samples of what I have done
+  link:

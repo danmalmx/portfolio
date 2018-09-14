@@ -51,6 +51,7 @@ GEM
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
+    material_icons (1.0.0)
     memoist (0.16.0)
     method_source (0.9.0)
     middleman (4.2.1)
@@ -152,6 +153,7 @@ PLATFORMS
 DEPENDENCIES
   capybara
   haml
+  material_icons
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-livereload

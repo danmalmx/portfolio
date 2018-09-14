@@ -6,6 +6,8 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '~> 0.1', platforms: [:mswin, :mingw]
 gem 'middleman-livereload'
 gem 'haml'
+gem 'material_icons'
+
 group :development, :test do
   gem 'capybara'
   gem 'pry'

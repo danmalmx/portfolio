@@ -1,0 +1,5 @@
+.works
+    - data.works.each do |project|
+        .project{id: "#{project[:work_id]}"}
+            %h2= project[:name]
+            %p= project[:description]

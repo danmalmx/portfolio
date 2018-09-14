@@ -1,0 +1,19 @@
+- contact_id: cont_1
+  contact_type: LinkedIn
+  contact_link: https://www.linkedin.com/in/daniel-malmgren-de-oliveira
+  contact_image: images/icons/LinkedIn.png
+
+- contact_id: cont_2
+  contact_type: Twitter
+  contact_link: https://twitter.com/NLBizInNordics
+  contact_image: images/icons/twitter.png
+
+- contact_id: cont_3
+  contact_type: Email
+  contact_link: mailto:danmalmx@gmail.com
+  contact_image: images/icons/mail.png
+
+- contact_id: cont_4
+  contact_type: Phone
+  contact_link: call:+46 72 200 15 20
+  contact_image: images/icons/phone.png
