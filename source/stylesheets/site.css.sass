@@ -42,9 +42,10 @@ h3
   text-align: center
 
 h4 
-  color: $h4_color
-  font-size: $med_sz_font
+  color: $h2_color
+  font-size: $min_sz_font
   padding: 0 50 0 50
+  text-align: center
 
 h5 
   color: $h4_color
@@ -64,6 +65,16 @@ h7
   padding: 0 20 0 20
   text-align: center
 
+h8
+  color: $h2_color
+  font-size: $min_sz_font
+  padding: 0 20 0 20
+
+h9
+  color: $h2_color
+  font-size: $min_sz_font
+  padding: 0 20 0 20
+  text-align: center
 
 p 
   color: $h2_color
@@ -73,7 +84,7 @@ p
 .wrapper
   display: grid
   grid-template-columns: 80px auto 
-  min-height: 60vh
+  min-height: 100vh
 
   .main 
     display: grid
@@ -212,7 +223,7 @@ p
       font-size: 0.8em
       text-decoration: none
       text-align: center
-      line-height: 1.2em
+      line-height: 1em
       color: $h2_color
       &:focus, 
       &:hover 
@@ -301,8 +312,8 @@ p
     display: grid
     grid-template-columns: repeat(4, 1fr)
     grid-gap: 10px
-    padding: 0 50 0 50
-    min-height: 60vh
+    padding: 0 0 0 10
+    min-height: 100vh
 
     #cv_1
       display: grid
