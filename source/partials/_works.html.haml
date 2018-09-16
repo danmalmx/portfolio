@@ -1,5 +1,5 @@
 .works
     - data.works.each do |project|
-        .project{id: "#{project[:work_id]}"}
-            %h2= project[:name]
-            %p= project[:description]
+        %div{id: "#{project[:work_id]}"}
+            %a{href: "#{project[:link]}", target: '_blank'}=project[:name]
+            %h6= project[:description]

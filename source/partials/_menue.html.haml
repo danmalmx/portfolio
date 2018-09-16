@@ -1,5 +1,5 @@
 .menue
     - data.menue.each do |project|
-        .project{id: "#{project[:menue_id]}"}
-            %h4= project[:name]
-            %p= project[:description]
+        %div{id: "#{project[:menue_id]}"}
+            %a{href: "#{project[:link]}"}
+                %img{src: "#{project[:image]}"}=project[:name]

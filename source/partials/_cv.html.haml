@@ -1,0 +1,8 @@
+.cv
+    - data.cv.each do |project|
+        %div{id: "#{project[:curriculum_id]}"}
+            %img{src: "#{project[:image]}"}        
+                %h7= project[:years]
+                %h3= project[:titel]
+                %h6= project[:organization]
+                %h6= project[:description]

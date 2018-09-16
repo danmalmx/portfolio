@@ -1,24 +1,29 @@
 - menue_id: mu_1
   name: Home
-  image: 
-  link: source/home.html
+  image: images/home.png
+  link: index.html
 
 - menue_id: mu_2
   name: Work
-  image: 
-  link: source/home.html
+  image: images/portfolio.png
+  link: work.html
 
 - menue_id: mu_3
   name: Skills
-  image: 
-  link: source/home.html
+  image: images/skills.png
+  link: skills.html
 
 - menue_id: mu_4
   name: Contact
-  image: 
-  link: source/home.html
+  image: images/contact.png
+  link: contact.html
 
 - menue_id: mu_5
+  name: CV
+  image: images/book.png
+  link: cv.html
+
+- menue_id: mu_6
   name: About
-  image: 
-  link: source/home.html
+  image: images/about.png
+  link: about.html

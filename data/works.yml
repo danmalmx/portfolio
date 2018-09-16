@@ -15,7 +15,7 @@
 
 - work_id: wk_4
   name: FizzBuzz revisited
-  description: Browser version (JS, HTMl and CSS) of the game
+  description: Browser app (JS, HTML and CSS) of the game
   link: https://danmalmx.github.io/fizz_buzz_js 
 
 - work_id: wk_5

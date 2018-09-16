@@ -1,0 +1,48 @@
+- curriculum_id: cv_1
+  titel: Business Development Manager Nordics
+  organization: Ministry of Foreign Affairs of the Netherlands
+  description: Monitoring, researching, mapping and developing opportunities for/with Dutch companies in Scandinavia, in close collaboration with the embassies in the region. Market-scans, match-making, trade-shows, soft landings / introductions and delegations. Marketing and Communications tasks included.
+  years: Aug 2016 - Aug 2016
+  image: images/icons/mfa.png
+
+- curriculum_id: cv_2
+  titel: Marketing Manager
+  organization: DHL Supply Chain BeNeLux
+  description: Managed lead generation campaigns, marketing and social media exposure which raised sales leads by around 15%.
+  years: Apr 2014 - Jan 2016
+  image: images/icons/dhl.png
+
+- curriculum_id: cv_3
+  titel: Marketing & Communications
+  organization: DHL Global Forwarding, Industrial Projects department
+  description: Established the marketing department for a niche player within DHL, including lead generations, campaigns and promotions, driving awareness internally and externally.
+  years: Apr 2012 - Mar 2014
+  image: images/icons/dhl.png
+
+- curriculum_id: cv_4
+  titel: Sales & Marketing Support 
+  organization: DHL Global Forwarding - Global Renewable Energy Sector
+  description: Contributed with sector development, marketing (internal and external), sector community and lead generation, resulting in 50% y-o-y sales growth for division and over €20 million in additional cross-divisional sales (without direct mandate).  
+  years: Aug 2009 - Mar 2012
+  image: images/icons/dhl.png
+
+- curriculum_id: cv_5
+  titel: Sector Strategy Analyst
+  organization: DHL Customer Solutions & Innovation - Mobile Devices (global sectors pilot project)
+  description: Supported with the new sector approach “template” (the basis for DHL’s current 5 global focus sectors), through strategy analysis, community development, marketing and PMO for key accounts.
+  years: Feb 2009 - Jun 2009
+  image: images/icons/dhl.png
+
+- curriculum_id: cv_6
+  titel: Knowledge Management
+  organization: DHL Customer Solutions & Innovation - Global Sales Team
+  description: Developed intelligence platform, increasing access to collateral, market, customer and competitive information, while reducing search efforts by between 50 - 75%.
+  years: Jun 2008 - Jan 2009
+  image: images/icons/dhl.png
+
+- curriculum_id: cv_7
+  titel: Knowledge Management
+  organization: DHL Customer Solutions & Innovation - Global Sales Team
+  description: Developed intelligence platform, increasing access to collateral, market, customer and competitive information, while reducing search efforts by between 50 - 75%.
+  years: Jun 2008 - Jan 2009
+  image: images/icons/dhl.png

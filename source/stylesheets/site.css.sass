@@ -4,14 +4,14 @@ $h3_color: black
 $h4_color: #C70039
 $p_color: #FFC300
 $a_color: #dddddd 
-$hover_color: #66CDAA
+$hover_color: #8B0000
 $card_color: #A9A9A9
 $align_center: center
 $min_sz_font: 1em
 $card_size_tx: 0.5em
 $med_sz_font: 2em
 $lg_sz_font: 3em
-$xlg_sz_font: 5rem
+$xlg_sz_font: 4rem
 
 body
   font-family: Helvetica, sans-serif
@@ -25,49 +25,45 @@ body
   background: $bg_color
   padding: 5vh
 
-a
-  text-align: justify
-  color: $h2_color
-  &:focus, 
-  &:hover 
-    color: $h4_color
-  padding: 0 0 0 50
-
-#links
-  font-size: 3em
-  padding: 0 50 0 50
-  line-height: 2em
-
-  color: $h3_color
-  &:focus, &:hover 
-    color: $hover_color
-
 h1 
   color: $h2_color
   font-size: $xlg_sz_font
-  padding: 0 50 0 50
+  padding: 20 50 0 50
   
 h2
-
   color: $h4_color
   font-size: $med_sz_font
   padding: 0 20 0 20
 
 h3
-  color: $h3_color
-  font-size: 3em
+  color: $h4_color
+  font-size: $med_sz_font
   padding: 0 50 0 50
+  text-align: center
 
 h4 
   color: $h4_color
-  font-size: 3em
+  font-size: $med_sz_font
   padding: 0 50 0 50
 
 h5 
   color: $h4_color
-  font-size: 2.3em
+  font-size: 2.2em
   padding: 0 50 0 50
   text-align: justify
+
+h6 
+  color: $h2_color
+  font-size: $card_size_tx
+  padding: 0 20 0 20
+  text-align: justify
+  
+h7
+  color: $h2_color
+  font-size: 1.5em
+  padding: 0 20 0 20
+  text-align: center
+
 
 p 
   color: $h2_color
@@ -76,96 +72,276 @@ p
 
 .wrapper
   display: grid
-  grid-template-columns: 150px auto  
+  grid-template-columns: 80px auto 
+  min-height: 60vh
 
   .main 
     display: grid
-    grid-colum: 2 / -1  
+    grid-colum: 2 / 3
+  
+    img
+      text-align: center  
+      size: 50%
 
   .works
     display: grid
-    grid-template-columns: 1fr 1fr 1fr 
+    grid-template-columns: repeat(3, 1fr) 
     grid-gap: 10px
-    padding: 3vh
+    padding: 80 50 0 50
+    max-block-size: 200px
+
+    .work, a
+      font-size: 0.8em
+      text-decoration: none
+      text-align: left
+      line-height: 1.2em
+      color: $h4_color
+      &:focus, &:hover 
+        color: $hover_color
+      padding: 0 20 20 20
 
     #wk_1
-      background-color: $card_color
+      background-color: rgba(255, 255, 255, 0.25)
       &:focus, &:hover 
         background-color: grey
-      border-radius: 20px
+      border-radius: 5px
+      font-size: 2.5em
+      text-decoration-color: red
+      padding: 20 20 0 20
+
     #wk_2
-      background-color: $card_color
+      background-color: rgba(255, 255, 255, 0.25)
       &:focus, &:hover 
         background-color: grey
-      border-radius: 20px
+      border-radius: 5px
+      font-size: 2.5em
+      text-decoration-color: red
+      padding: 20 20 0 20
+
     #wk_3
-      background-color: $card_color
+      background-color: rgba(255, 255, 255, 0.25)
       &:focus, &:hover 
         background-color: grey
-      border-radius: 20px
+      border-radius: 5px
+      font-size: 2.5em
+      text-decoration-color: red
+      padding: 20 20 0 20
+
     #wk_4
-      background-color: $card_color
+      background-color: rgba(255, 255, 255, 0.25)
       &:focus, &:hover 
         background-color: grey
-      border-radius: 20px
+      border-radius: 5px
+      font-size: 2.5em
+      text-decoration-color: red
+      padding: 20 20 0 20
+
     #wk_5
-      background-color: $card_color
+      background-color: rgba(255, 255, 255, 0.25)
       &:focus, &:hover 
         background-color: grey
-      border-radius: 20px
+      border-radius: 5px
+      font-size: 2.5em
+      text-decoration-color: red
+      padding: 20 20 0 20
+
     #wk_6
-      background-color: $card_color
+      background-color: rgba(255, 255, 255, 0.25)
       &:focus, &:hover 
         background-color: grey
-      border-radius: 20px
+      border-radius: 5px
+      font-size: 2.5em
+      text-decoration-color: red
+      padding: 20 20 0 20
 
   .contact
     display: grid
-    grid-template-columns: repeat(6, 1fr)
-    // padding: 3vh
-    min-height: 62.5vh
+    grid-template-columns:  repeat( 12, minmax(10px, 3fr) )
+    float: left
+    padding: 0 50 0 50
+    min-height: 60vh
 
     #cont_1
+      grid-column-start: 1
+      grid-column-end: 2
       img 
-        display: inline-grid
-        grid-column-start: 3
-        grid-column-end: 4
-        width: 75%
+        width: 35%
         &:focus, &:hover 
-          width: 70% 
+          width: 30% 
 
     #cont_2
       img 
-        display: inline-grid
-          grid-column-start: 4
-          grid-column-end: 5
-        width: 75%
+        grid-column-start: 2
+        grid-column-end: 3
+        width: 35%
         &:focus, &:hover 
-          width: 70% 
+          width: 30% 
 
     #cont_3
       img 
-        display: inline-grid
-        grid-column-start: 4
-        grid-column-end: 5
-        width: 75%
+        grid-column-start: 3
+        grid-column-end: 4
+        width: 35%
         &:focus, &:hover 
-          width: 70% 
+          width: 30% 
 
     #cont_4
       img 
-        display: inline-grid
-        grid-column-start: 5
-        grid-column-end: 6
-        width: 75%
+        grid-column-start: 4
+        grid-column-end: 5
+        width: 35%
         &:focus, &:hover 
-          width: 70% 
+          width: 30% 
 
   .menue
+    display: grid
     grid-column: 1 / 2
-    color: $p_color
     border-style: solid
     border-bottom-color: black
     border-top-color: black
     border-left-color: black
     border-right-color: red
+    align-content: stretch
+    text-align: justify
+    color: $h2_color
+    &:focus, 
+    &:hover 
+      color: $h4_color
+
+    .menus, a
+      font-size: 0.8em
+      text-decoration: none
+      text-align: center
+      line-height: 1.2em
+      color: $h2_color
+      &:focus, 
+      &:hover 
+        color: $h4_color
+      padding: 0 20 20 20
+
+    #mu_1
+      img 
+        display: grid
+        width: 80%
+        font-size: 0.8em
+        opacity: 1
+        &:focus, &:hover
+          opacity: 0.6 
+
+    #mu_2
+      img 
+        display: grid
+        width: 60%
+        font-size: 0.8em
+        opacity: 1
+        &:focus, &:hover
+          opacity: 0.6 
+
+    #mu_3
+      img 
+        display: grid
+        width: 60%
+        font-size: 0.8em
+        opacity: 1
+        &:focus, &:hover
+          opacity: 0.6 
+
+    #mu_4
+      img 
+        display: grid
+        width: 60%
+        font-size: 0.8em
+        opacity: 1
+        &:focus, &:hover
+          opacity: 0.6 
+
+    #mu_5
+      img 
+        display: grid
+        width: 60%
+        font-size: 0.8em
+          opacity: 1
+        &:focus, &:hover
+          opacity: 0.6 
+
+    #mu_6
+      img 
+        display: grid
+        width: 60%
+        font-size: 0.8em
+          opacity: 1
+        &:focus, &:hover
+          opacity: 0.6 
+
+  .about
+    display: grid
+    grid-template-columns: repeat(4, 3fr)
+    grid-gap: 10px
+    float: left
+    padding: 0 50 0 50
+    min-height: 60vh
+
+    #ms_1
+      color: red
+      background-color: rgba(255, 255, 255, 0.1)
+
+    #ms_2
+      color: red
+      background-color: rgba(255, 255, 255, 0.1)
+
+    #ms_3
+      color: red
+      background-color: rgba(255, 255, 255, 0.1)
+
+    #ms_4
+      color: red
+      background-color: rgba(255, 255, 255, 0.1)
+
+  .cv
+    display: grid
+    grid-template-columns: repeat(4, 1fr)
+    grid-gap: 10px
+    padding: 0 50 0 50
+    min-height: 60vh
+
+    #cv_1
+      display: grid
+      background-color: rgba(255, 255, 255, 0.2)
+      border-radius: 3px
+      padding: 20 20 0 20
+
+    #cv_2
+      display: grid
+      background-color: rgba(255, 255, 255, 0.2)
+      border-radius: 3px
+      padding: 20 20 0 20
+
+    #cv_3
+      display: grid
+      background-color: rgba(255, 255, 255, 0.2)
+      border-radius: 3px
+      padding: 20 20 0 20
+
+    #cv_4
+      display: grid
+      background-color: rgba(255, 255, 255, 0.2)
+      border-radius: 3px
+      padding: 20 20 0 20
+
+    #cv_5
+      display: grid
+      background-color: rgba(255, 255, 255, 0.2)
+      border-radius: 3px
+      padding: 20 20 0 20
+
+    #cv_6
+      display: grid
+      background-color: rgba(255, 255, 255, 0.2)
+      border-radius: 3px
+      padding: 20 20 0 20
+
+    #cv_7
+      display: grid
+      background-color: rgba(255, 255, 255, 0.2)
+      border-radius: 3px
+      padding: 20 20 0 20

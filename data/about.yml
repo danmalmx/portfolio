@@ -1,5 +1,15 @@
-- milestone: Growing up multicultural
-  ms_text: I was born in London by a Swedish mother and a Portuguese father. By the time I was 7, I had lived in 3 countries and learned 3 languages. That set the foundation for the nomad (digital mainly nowadays) I am. <br><strong> I feel comfortable in changing environments</strong>
+- milestone_id: ms_1
+  milestone: Growing up multicultural
+  ms_text: I was born in London by a Swedish mother and a Portuguese father. By the time I was 7, I had lived in 3 countries and learned 3 languages. That set the foundation for the nomad (digital mainly nowadays) I am. <br><br><strong> I feel comfortable in changing environments</strong>
 
-- milestone: Studies
-  ms_text: It wasn't really until I attended university that I became intersted in studying. Before that I had attended primary and secondary education and done obligtory military service, which actually gave me some time to reflect on what I wanted to do, which was to go to university and study international business - that kicked of a passion for life-long learning and I've taken both classifications and courses regularly ever since. <br><strong>I enjoy learning new things</strong>
+- milestone_id: ms_2
+  milestone: Studies
+  ms_text: It wasn't really until I attended university that I became intersted in studying. <br> <br>Before that I had attended primary and secondary education and done obligtory military service, which actually gave me some time to reflect on what I wanted to do, which was to go to university and study international business - that kicked of a passion for life-long learning and I've taken both classifications and courses regularly ever since. <br><br><strong>I enjoy and excell at learning new things</strong>
+
+- milestone_id: ms_3
+  milestone: Early Career
+  ms_text: When I started university I thought I wanted to be an investment banker. After working a few years as an analyst, I realized that wasn't my thing at all. <br><br> What followed was a large mix of jobs. I helped starting and co-ran a hotel. I moved to Belgium and became an expats administrator and I even sold (to retailers) tires for a short time. <br><br><strong>I adapt easily to new roles</strong>
+
+- milestone_id: ms_4
+  milestone: Later Career to current
+  ms_text: A 6 months replacement for a manernity leave turn into nearly 9 years at the DP DHL group. While I have had a variety of titles at the multimnational, my main contribution has been in sector development (incl community bulilding), business development and marketing. <br><br>Despite enjoying all my roles at the company, after 3 large rounds of restructurings I got disillusioned with publically traded business' and decided to give it a go at government job.<br><br> I was fortunate enough to be part of a pilot-project by the Dutch Foreign Ministry to reinforece selected regions of the world with business developers. I got to meet many great SME's interested in doing busienss in the Nordics and treasure the experience I gained. One thing that became apparent to me during that time is that I love crreating things. What better way to do that than learning programming? That is why I decided to enroll in a bootcamp. <br><br><strong>I continously push myself outside my comfort-zone.  

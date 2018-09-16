@@ -4,10 +4,7 @@
     %meta{:charset => "utf-8"}/
     %meta{:content => "ie=edge", "http-equiv" => "x-ua-compatible"}/
     %meta{:content => "width=device-width, initial-scale=1, shrink-to-fit=no", name: "viewport"}/
-    -# %link{rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"}
 
-
-    / Use the title from a page's frontmatter if it has one
     %title= current_page.data.title || "Daniel's portfolio "
     = stylesheet_link_tag "site"
     = javascript_include_tag "site"
